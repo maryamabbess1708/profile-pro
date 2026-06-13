@@ -20,34 +20,34 @@
     </nav>
   </header>
  <main>
-    <section >
-    <h2 >A_propos</h2>
-     <p>Je suis étudiante passionnee par le developpement web</p>
+<section id="A_propos" aria-labelledby="A_propos">
+    <h2 id="A_propos">A_propos</h2>
+    <p>Je suis étudiante passionnee par le developpement web</p>
 </section>
-<section >
-    <h2 >Competences</h2>
-    <ul>
+<section  id="Competences" aria-labelledby="Competences">
+    <h2 id="Competences">Competences</h2>
+     <ul aria-label="les competences techniques sont ">
        <li>HTML5</li>
        <li>CSS</li>
        <li>JavaScript</li>
        <li>Git GitHub</li>
     </ul>
 </section>
-<section >
-    <h2 >Contact</h2>
-     <form method="GET">
-         <fieldset>
+<section  id="Contact" aria-labelledby="Contact">
+    <h2 id ="Contact">Contact</h2>
+     <form method="GET" aria-label="formulaire">
+        <fieldset>
             <legend> formulaire</legend>
           <label for="prenom">prenom</label>
-          <input type="text" id="prenom" name="prenom" >
+          <input type="text" id="prenom" name="prenom" required>
           <label for="nom">nom</label>
-          <input type="text" id="nom" name="nom">
+          <input type="text" id="nom" name="nom" required>
           <label for="email">email</label>
-          <input type="email" id="email" name="email" >
+          <input type="email" id="email" name="email" required>
           <label for="telephone">telephone</label>
-          <input type="tel" id="telephone" name="telephone" >
+          <input type="tel" id="telephone" name="telephone" required  pattern="[0-9]{8}">
           <label for="message">message</label>
-          <textarea id="message" name="message" ></textarea>
+          <textarea id="message" name="message" required></textarea>
           <input type="submit" value="Envoyer">
         </fieldset>
     </form>
@@ -55,7 +55,8 @@
 </main>
 <footer>
     <p>2026-Tous droits reserves</p>
-    <a href="https://github.com/maryamabbess1708"></a>>GitHub</a>
+    <a href="https://github.com/maryamabbess1708" aria-label="Profil GitHub de Maryam"></a>>GitHub</a>
+
 </footer>
 </body>
 </html>
